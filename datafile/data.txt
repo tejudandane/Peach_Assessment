@@ -1,0 +1,4 @@
+create database testdata
+create table vendor(int id Auto_Increment not null, vendor_name varchar(30) not null , address varchar(100) not null,
+                    primary key(id));
+
